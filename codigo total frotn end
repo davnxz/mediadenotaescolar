@@ -1,0 +1,346 @@
+//aula 01
+ alert("oi")
+
+console.log("ola mundo")
+
+
+//aula 02
+var a;
+
+var b= "hd";
+
+
+ 
+ a="opa";
+
+ b=a;
+
+console.log(b)
+
+//aula 03
+
+var c=" primeira linha /n segunda linha";
+//  uma string somada a outra apenas junta os elementos. exemplo abaixo
+
+var d=1;
+var e="1";
+
+  // aqui somamos a srtring
+
+
+  console.log("1"+"1")
+
+  //aqui  não somamos a string
+
+  console.log(1+1)
+
+  // 03
+
+  // + adição 
+  // - subtração
+  // * multiplicação
+  // / divisão
+  // % módulo
+  // -- decremento
+  // ++ incremento
+   
+    var f = 80; 
+     var g = 40;
+      console.log( f % g);
+
+    console.log( f/g)
+    console.log (--g);
+    console.log (g);
+    console.log(f/2*34+g);
+    console.log(15*34);
+    var h = f/2*34+g;
+    console.log (--h)
+
+    h--;
+     console.log(h);
+
+     //aula 04
+
+
+     var idade = 35;
+                                                    
+     var maior20 = idade > 20;  //verdade
+     var menor30 = idade < 30; //falso
+     
+
+     var entre = maior20 && menor30;
+
+     console.log("idade", idade);
+
+
+     console.log("Maior que vinte", maior20);
+
+    
+     console.log(" Menor que trinta", menor30);
+
+
+       console.log("entre 20 e 30", entre)  
+
+      //aula 05
+
+      var str= "valor qulaquer"
+      str += "outro texto"
+
+      console.log(str)  
+
+      //aula 06
+
+      var a = "3"
+      var b = "6"
+      var c =  parseInt(a) + parseInt(b)
+
+      console.log(c)
+
+
+
+
+
+
+      //aula 07
+
+     //var nome= prompt ("What's your name")
+
+     // t("bom dia " +nome)
+
+      // aula 08
+
+      var idade = 18;
+      
+
+      if (idade >=35){
+
+      
+      
+         console.log("pode")
+                 console.log("qual é seu pedido") }
+
+        else if (idade >=18) {
+        
+           console.log ("pode")
+
+           console.log (" Mostre a identidade")
+
+
+
+        }        
+
+         else{
+         console.log("Não pode")
+         console.log(" volte futuramente")
+         }
+
+        // aula 09 
+
+
+        var idade= 17
+
+       var elepode = idade >= 18 ? "pode" :"não pode"
+
+       console.log(elepode)
+
+       // aula 10
+
+        var nota1 = 5.0;
+
+           var nota2 = 6.0;
+
+           var media1 = (nota1 + nota2)  / 2;
+
+           if (media1 >=7){
+
+
+
+             console.log(" Você passou com médaia " + media1)
+
+
+           }
+
+           else{
+
+            console.log(" Sua nota " + media1 + " Não foi o suficiente para passar")
+
+
+
+           }
+
+           
+           
+
+
+
+           var nota3 = 5.0;
+
+           var nota4 = 6.0;
+
+
+           var media2 = (nota3 + nota4) /2
+
+
+              if (media2 >= 8){
+
+
+                console.log("Otimo")
+              }
+
+
+              else if ( media2 >= 6.5){
+
+
+
+                console.log("Regular")
+
+              }
+
+              else{
+
+
+                console.log("Ruim")
+
+
+          
+              }
+
+
+            // eu tambem poderia ter cirado uma variavel com nada e ir atribuindo valor a ela dependendo do resulatado para nao poluir tanto   //
+
+
+
+        //exemplo abaixo  
+        var nota5 = 8.0;
+
+        var nota6 = 8.0;
+
+
+        var media3 = (nota5 + nota6) /2
+
+        var avaliacao =""
+
+
+           if (media3 >= 8){
+
+            avaliacao ="otimo"
+
+
+          
+           }
+
+
+           else if ( media3 >= 6.5){
+
+
+            avaliacao ="bom"
+
+
+
+           
+
+           }
+
+           else{
+
+
+            avaliacao ="ruim"
+
+
+       
+           }
+          
+            console.log( avaliacao)
+             
+
+
+
+            switch(avaliacao){
+
+
+              case     "otimo":
+              console.log(" Perfeito você te neuronios")
+
+              break
+
+
+              case " bom":
+              console.log(" bro você nao é trap mano")
+              break
+
+              case "ruim":
+                break
+
+              console.log (" lil raffa foi  famoso aos 30 ")
+
+              default:
+                console.log(" erro")
+                break
+            }
+
+
+            var numero = 5;
+
+            for ( var vez = 0; vez< numero; vez++  ){
+
+              console.log(" for executado pela " + (vez+ 10 / 3 * 8 )  + " vez" )
+
+            
+            }
+            console.log("cabou")  
+            
+          
+            
+
+          // var alunos= [ "pedro", "lucas" , "brabola", "nastacio", "trem bala"] 
+
+           // for( var pedro=0; pedro<alunos.length; pedro++) {
+
+          //    console.log(alunos[pedro])
+         //   }
+
+         //   var pedros = [ "olok", "sobo", "jao" ]
+            
+            
+ // console.log(pedros [0])
+  
+ 
+
+ var alunos=[ "se", "pedro", "lucas" , "brabola", "nastacio", "trem bala"] 
+
+ for( var pedro=0; pedro<alunos.length; pedro++){
+
+  console.log(alunos[pedro])
+ } 
+
+
+
+ function media(n1,n2) {
+
+    var pedro1 = n1;
+     var pedro2 = n2;
+     var media = (pedro1 + pedro2 ) / 2;
+     console.log(media);
+
+
+
+
+
+
+ }
+
+ 
+media(7,8);
+        
+
+    
+       var cholo=[ "Igor","José","Marcos","Mariana","Joana"]
+
+       var numle= cholo.length
+
+     
+for(var ral=0; ral<numle; ral++){
+
+  console.log(cholo[ral])
+}
+
